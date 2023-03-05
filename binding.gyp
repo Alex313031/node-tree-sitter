@@ -29,9 +29,10 @@
       ],
       "cflags": [
         "-std=c++0x",
+        "-O3",
       ],
       'xcode_settings': {
-        'CLANG_CXX_LANGUAGE_STANDARD': 'c++11',
+        'CLANG_CXX_LANGUAGE_STANDARD': 'c++14',
       },
     },
     {
@@ -45,7 +46,8 @@
         "vendor/tree-sitter/lib/include",
       ],
       "cflags": [
-        "-std=c99"
+        "-std=c99",
+        "-O3",
       ]
     }
   ],
