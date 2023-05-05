@@ -28,11 +28,11 @@
         }]
       ],
       "cflags": [
-        "-std=c++0x",
+        "-std=c++17",
         "-O3",
       ],
       'xcode_settings': {
-        'CLANG_CXX_LANGUAGE_STANDARD': 'c++14',
+        'CLANG_CXX_LANGUAGE_STANDARD': 'c++17',
       },
     },
     {
@@ -51,4 +51,8 @@
       ]
     }
   ],
+  'variables': { 'runtime%': 'node' },
+  'conditions': [
+      ['runtime=="electron"', { 'defines': ['NODE_RUNTIME_ELECTRON=1'] }],
+  ]
 }
