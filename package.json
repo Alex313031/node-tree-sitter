@@ -25,7 +25,7 @@
     "node-gyp": "8.4.1",
     "prebuild": "^10.0.1",
     "rimraf": "^3.0.2",
-    "superstring": "git+https://github.com/Alex313031/superstring-ng.git#a37202c",
+    "superstring": "git+https://github.com/Alex313031/superstring-ng.git#94e2ee0",
     "tree-sitter-javascript": "git+https://github.com/tree-sitter/tree-sitter-javascript.git#master"
   },
   "scripts": {
